@@ -2,7 +2,7 @@
 
 A small, free Python tool for planning how long a geo holdout test should run. It sizes the test with **minimum detectable effect (MDE) and statistical power**, then fits that length to your customers' **consideration cycle**.
 
-By [Eric Brinker](https://brinkeranalytics.com/about), [Brinker Analytics](https://brinkeranalytics.com). For the full planning guide, see **[How long does it take to set up a geo experiment?](https://brinkeranalytics.com/geo-test-duration-planner)**
+By [Eric Brinker](https://brinkeranalytics.com/about), [Brinker Analytics](https://brinkeranalytics.com). For the full planning guide, see **[Geo Test Duration Planner: How Long Should a Test Run?](https://brinkeranalytics.com/geo-test-duration-planner)**
 
 ## How I think about geo holdout duration
 
@@ -58,6 +58,8 @@ This is planning math, not a feasibility analysis. It assumes roughly independen
 - **If the length fits your calendar,** check the design against your own geo-level history before launch. The [geo-test-pretest-checks](https://github.com/brinker-analytics/geo-test-pretest-checks) repo runs three pre-launch checks on a GA4 export: comparison strength, required spend, and whether the business can act on the result.
 
 If you want the test length fitted to your own markets and budget, send me a note and we'll talk it through: [Get in touch](https://brinkeranalytics.com/contact).
+
+Planning how long a first holdout should run? Use this duration plan before that test. [Would It Have Sold Anyway?](https://brinkeranalytics.com/guides/would-it-have-sold-anyway) walks the path from a first-channel choice to a low-risk holdout and a budget move.
 
 ## Tests
 
